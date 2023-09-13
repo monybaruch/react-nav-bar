@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
         {showLinks && (
           <div className="links-container">
-            <ul className="links-container">
+            <ul className="links">
               {links.map((link) => {
                 const { id, url, text } = link;
                 return (
